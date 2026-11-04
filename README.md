@@ -8,7 +8,8 @@
 
 ```
 AGENTS.md                                   给各类 agent 的入口指引
-skills/novel-writing-discipline/SKILL.md    主 skill（YAML 头 + 完整细则正文）
+skills/novel-writing-discipline/SKILL.md    主 skill（前半完整细则 + 附录：写作技巧总汇）
+skills/novel-writing-discipline/写作技巧总汇.md  总汇副本（与 SKILL 附录同文）
 scripts/chapter_selfcheck.py                单章硬指标自检（入口）
 scripts/selfcheck_metrics.py                计量函数（自检依赖）
 scripts/baseline_866.json                   参考书全书统计基准（只有数字）
@@ -72,10 +73,11 @@ python3 scripts/chapter_selfcheck.py 章.md --json                              
 
 - 小说正文 `正文/` 和各章审核、回执。
 - 项目账本：`连载总账.md`、`章节账本.md`、`伏笔与钩子总账.md`、`人物与势力账本.md`、`设定总纲.md`、`全书卷纲.md`、`主题完善稿.md`。写章前要读，向作者要最新版。
-- `写作技巧/写作技巧总汇.md`：多书逐书技巧汇总，约 8 万行（~4.5MB），按书分的原始笔记，太大，**不进本仓库**，只留在本地。
 - 各参考书的原文和逐书蒸馏报告。仓库**不收任何参考书原文**；`references/` 里原先较长的原文摘录已删除并改为转述，只保留章号和机制分析。
 
 ## 版权与边界
 
 - 参考书只学写作机制，不搬角色、剧情、世界观、梗、原句和标志性句式。
 - 成人内容只限成年角色、当下自愿，说停就停；禁止任何未成年人性化。详见 SKILL.md。
+
+技巧总汇机制已整进 `skills/novel-writing-discipline/SKILL.md` 附录（同目录另有 `写作技巧总汇.md` 副本）；约 8 万行，写章助手读 skill 时一并加载。
