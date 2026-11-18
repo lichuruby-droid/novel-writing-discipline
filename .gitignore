@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+# 本地项目内容不入库
+正文/
+参考原文/
+原文*/
+自检*.txt
+*.zip
+*.bak*
